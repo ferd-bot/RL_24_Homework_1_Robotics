@@ -36,7 +36,7 @@ Then log out and log in.
 
 Clone this repo 
 ```sh
-$ git clone https://github.com/RoboticsLab2024/Docker.git
+$ git clone https://github.com/ferd-bot/RL_24_Homework_1_Robotics.git
 ```
 Open a terminal inside the cloned repo and make all the bash files executable
 ```sh
