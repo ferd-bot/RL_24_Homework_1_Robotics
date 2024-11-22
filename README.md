@@ -1,4 +1,4 @@
-# RL24_HW_1_lisi
+# RL24_HW_1
 ## Istruzioni 
 1. Clona il repository in una cartella contente il ros2_docker_scripts:
    ```bash
