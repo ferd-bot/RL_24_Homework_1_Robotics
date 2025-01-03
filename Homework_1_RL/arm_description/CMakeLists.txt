@@ -33,11 +33,6 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
-# Installare il file di configurazione .yaml
-install(DIRECTORY config
-  DESTINATION share/${PROJECT_NAME}
-)
-
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
