@@ -8,7 +8,9 @@
    ```bash
       colcon build
       source install/setup.bash
- 
+
+Note: The repository download includes extra files. Manually remove unnecessary files and move the required ones into the src folder.
+
 ## Lancio dei pacchetti:
 1. Per lanciare arm_description, with Rviz:
    ```bash
