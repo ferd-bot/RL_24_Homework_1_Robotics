@@ -35,7 +35,7 @@ def generate_launch_description():
     arm_control_launch_file = PathJoinSubstitution([
         FindPackageShare('arm_control'),
         'launch',
-        'control.launch.py'
+        'arm_control.launch.py'
     ])
     controllers = TimerAction(
         period=control_delay,
