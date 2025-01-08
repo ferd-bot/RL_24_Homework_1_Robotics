@@ -11,11 +11,13 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
 
 1. Download the repository from GitHub:  
    ```bash
+   cd src
    git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_1_Robotics.git .
    ```
 
 2. To configure and build all the packages in the workspace:  
    ```bash
+   cd ~/ros2_ws
    colcon build
    source install/setup.bash
    ```
