@@ -18,6 +18,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
 2. To configure and build all the packages in the workspace:  
    ```bash
    cd ~/ros2_ws
+   rm -rf build/ install/ log/
    colcon build
    source install/setup.bash
    ```
