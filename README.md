@@ -46,7 +46,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
    ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "{data: [0.5, 0.0, 0.3, 0.0]}"
    ```
 
-4. To start the `arm_controller_node`, open another terminal after launching `arm_world.launch.py`:  
+4. To start the `arm_controller_node`, open another terminal after launching `arm_gazebo.launch.py`:  
    ```bash
    ros2 run arm_control talker_listener
    ```
