@@ -58,7 +58,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
 
 1. You can also launch the `arm_control` file:  
    ```bash
-   ros2 launch arm_control control.launch.py
+   ros2 launch arm_control arm_control.launch.py
    ```
 
 2. To visualize what the camera is transmitting, open `rqt` in another terminal and connect to the `/videocamera` topic:  
