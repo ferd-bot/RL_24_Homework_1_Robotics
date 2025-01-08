@@ -40,7 +40,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
    ```
    Once launched this way, it is possible to send position commands to the topic `/position_controller/commands` via terminal:  
    ```bash
-   ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "{data: [0.5, -0.5, 0.3, -0.3]}"
+   ros2 topic pub /position_controller/commands std_msgs/msg/Float64MultiArray "{data: [0.5, 0.0, 0.3, 0.0]}"
    ```
 
 4. To start the `arm_controller_node`, open another terminal after launching `arm_world.launch.py`:  
@@ -58,7 +58,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
    ros2 launch arm_control control.launch.py
    ```
 
-2. To visualize what the camera is transmitting, open `rqt` in another terminal and connect to the `/camera` topic:  
+2. To visualize what the camera is transmitting, open `rqt` in another terminal and connect to the `/videocamera` topic:  
    ```bash
    rqt
    ```
