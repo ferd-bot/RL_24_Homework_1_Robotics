@@ -14,7 +14,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
    cd src
    git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_1_Robotics.git .
    ```
-##**Warn**
+**Warn**
 the git clone reported (with the point) works only if the directory in which it is executed is empty; 
 if this is not the case, download the repository normally (without a point) and manually move the files out of the "RL_24_Homework_1_Robotics" folder, always remaining inside the src.
 
