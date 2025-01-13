@@ -7,18 +7,22 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
 
 ---
 
-## **Instructions**  
+## **Instructions**
 
-1. Download the repository from GitHub:  
+1. Clone the repository from GitHub:  
    ```bash
    cd src
-   git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_1_Robotics.git .
+   git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_3_Robotics.git .
    ```
-**Warn**
-the git clone reported (with the point) works only if the directory in which it is executed is empty; 
-if this is not the case, download the repository normally (without a point) and manually move the files out of the "RL_24_Homework_1_Robotics" folder, always remaining inside the src.
+   **Important**:  
+   The `git clone` command with the dot (`.`) works only if the target directory is empty.  
+   - If not, you can remove extra files using:
+     ```bash
+     rm -rf *
+     ```
+   - Alternatively, clone the repository normally (without the dot) and manually move the files from the `RL_24_Homework_2_Robotics` folder to the `src` directory.
 
-2. To configure and build all the packages in the workspace:  
+2. Configure and build all packages in the ROS2 workspace:  
    ```bash
    cd ~/ros2_ws
    rm -rf build/ install/ log/
