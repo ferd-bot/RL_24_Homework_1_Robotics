@@ -20,7 +20,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
      ```bash
      rm -rf *
      ```
-   - Alternatively, clone the repository normally (without the dot) and manually move the files from the `RL_24_Homework_2_Robotics` folder to the `src` directory.
+   - Alternatively, clone the repository normally (without the dot) and manually move the files from the `RL_24_Homework_1_Robotics` folder to the `src` directory.
 
 2. Configure and build all packages in the ROS2 workspace:  
    ```bash
