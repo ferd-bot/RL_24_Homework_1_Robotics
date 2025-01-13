@@ -12,7 +12,7 @@ The goal of this homework is to build ROS packages to simulate a 4-degrees-of-fr
 1. Clone the repository from GitHub:  
    ```bash
    cd src
-   git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_3_Robotics.git .
+   git clone -b REV_3 https://github.com/ferd-bot/RL_24_Homework_1_Robotics.git .
    ```
    **Important**:  
    The `git clone` command with the dot (`.`) works only if the target directory is empty.  
