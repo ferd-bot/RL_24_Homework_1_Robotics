@@ -24,9 +24,9 @@ public:
 private:
     // Callback per il subscriber del joint state
     void jointStateCallback(const sensor_msgs::msg::JointState::SharedPtr msg) {
-        RCLCPP_INFO(this->get_logger(), "Posizioni correnti delle giunzioni:");
+        RCLCPP_INFO(this->get_logger(), "Posizioni correnti dei giunti:");
         for (size_t i = 0; i < msg->name.size(); ++i) {
-            RCLCPP_INFO(this->get_logger(), "Giunzione: %s, Posizione: %f", msg->name[i].c_str(), msg->position[i]);
+            RCLCPP_INFO(this->get_logger(), "joint: %s, Position: %f", msg->name[i].c_str(), msg->position[i]);
         }
     }
 
